@@ -24,7 +24,98 @@
 </head>
 <body>
     <!-- header -->
+    <div class="menu-mobile">
+      <div class="icon icon-bar"><i class="fas fa-bars"></i></div>
+      <div class="icon icon-menu">menu</div>
+      <div class="icon icon-cart-mobile"><i class="fas fa-shopping-cart fa-lg icon-cart"></i></div>
+      <div class="icon icon-search"><i class="fas fa-search">    
+      </i></div>
+
+
+      <!---thanh search cho phần mobile-->
+      <div class="box-search-mobile">
+                <div class="search">
+
+                    <input class="text-search" placeholder="Поиск" type="text" name="text">
+                    <input class="btn-search" type="submit" name="submit" value="Поиск">
+                    <!-- <div class="cart">
+                        <a href="http://optomwatch.com.ua/cart"><i class="fas fa-shopping-cart fa-2x icon-cart"></i></a>
+                    </div> -->
+
+                </div>
+         </div>
+      </div>
+      <!---thanh menu cho phần mobile-->
+
+      <ul class="categories-mobile">
+                        <!-- @@@@ Tạo dữ liệu gỉa cho menu - Khắc Hữu -->
+                        <li class="menu-item">Категории</li>
+                        <ul class="category">
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/3">Наручные часы</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                                <ul class="category-child">
+                                    <li class="category-item secondclass">
+                                        <a href="http://optomwatch.com.ua/categorybyparent/8"> Женские наручные часы</a>
+                                    </li>
+                                    <li class="category-item secondclass">
+                                        <a href="http://optomwatch.com.ua/categorybyparent/9"> Мужские наручные часы</a>
+                                    </li>
+                                    <li class="category-item secondclass">
+                                        <a href="http://optomwatch.com.ua/categorybyparent/10"> Детские наручные часы</a>
+                                    </li>
+                                    <li class="category-item secondclass">
+                                        <a href="http://optomwatch.com.ua/categorybyparent/13"> coppy aaa</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/2">Настенные часы</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                                <ul class=" category-child">
+                                    <a href="http://optomwatch.com.ua/categorybyparent/2">
+                                    </a>
+                                    <li class="category-item thirdclass">
+                                        <a href="http://optomwatch.com.ua/categorybyparent/2"></a>
+                                        <a href="http://optomwatch.com.ua/categorybyparent/11"> Интерьерные часы</a>
+                                    </li>
+                                    <li class="category-item thirdclass"><a href="http://optomwatch.com.ua/categorybyparent/12"> Маятники</a>
+
+
+                                </ul>
+                            </li>
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/4">Аксессуары</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                            </li>
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/6">Будильники</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                            </li>
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/5">Калькуляторы</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                            </li>
+                            <li class="category-item firstclass">
+                                <a href="http://optomwatch.com.ua/categorybyparent/7">Бижутерия</a>
+                                <i class="icon-show-more"><span class="plus">+</span></i>
+                            </li>
+                        </ul>
+
+            </ul>
+
+<!---Menu-top cho phân mobile--->
+            <div class="menu-top-mobile">
+                    <li><a href="http://optomwatch.com.ua/">Главная</a></li>
+                    <li><a href="http://optomwatch.com.ua/newproducts">Новые поступление</a></li>
+                    <li><a href="http://optomwatch.com.ua/">Популярные категории</a></li>
+                    <li><a href="http://optomwatch.com.ua/brands">Бренды</a></li>
+                    <li><a href="http://optomwatch.com.ua/aboutus">О нас</a></li>
+            </div>     
+           
+      
     <div class="header">
+    
         <div class="master-header row">
             <div class="col-md-3 col-xs-12">
                 <h1>
@@ -132,8 +223,8 @@
                     <!-- -------end - Khắc Hữu-----------						 -->
                 </div>
 
-
-                <div class="main-content">
+                <!-- Phần main-content này giống main trong project cũ - có thể đổ nội dung các trang detail,cart và đây -->
+                <div class="main-content"> 
                     <div class="banner">
                         <h1 class="heading-title">Категории</h1>
                         <div class="row">

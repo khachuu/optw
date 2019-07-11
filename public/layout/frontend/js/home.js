@@ -19,6 +19,24 @@ class ReaderJs{
          $(".open-button").click(this.toggleFormComunity);
          $(".icon-show-more").click(this.toggleChildMenuCategoryOfChild);
 
+          $(".menu-mobile .icon-search").click(function(){
+                  $(".box-search-mobile").toggle();
+                  $(".categories-mobile").hide();
+                  $(".menu-top-mobile ").hide();
+          });
+
+          $(".menu-mobile .icon-bar").click(function(){
+                  $(".box-search-mobile").hide();
+                  $(".categories-mobile").toggle();
+                  $(".menu-top-mobile ").hide();
+           
+            });
+          $(".menu-mobile .icon-menu").click(function(){
+                $(".box-search-mobile").hide();
+                $(".categories-mobile").hide();
+                $(".menu-top-mobile ").toggle();
+               
+        });
 
 
 
